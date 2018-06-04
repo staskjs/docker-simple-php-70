@@ -28,6 +28,7 @@ RUN apt-get install -y \
 			php7.0-opcache \
 			php7.0-zip \
 			php7.0-dev \
+			php7.0-mcrypt \
 			php7.0-curl
 
 RUN mkdir -p /run/php
